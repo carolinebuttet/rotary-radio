@@ -1,0 +1,13 @@
+{
+    "name": "Radiooooo player",
+    "version": "1.0",
+    "description": "A chrome extension to play radioooo with your keyboard!",
+    "manifest_version": 2,
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "content_scripts": [{
+        "matches": ["https://radiooooo.com/"],
+        "js": ["main.js"]
+    }]
+}
