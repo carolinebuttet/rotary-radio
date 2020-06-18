@@ -17,9 +17,19 @@ Then, you can install it also by using the packet manager:
 ```sudo apt-get install chromium-browser --yes```
 
 - **Enable developer mode** <br>
-Open you chromium browser and type ```chrome://extensions```in your URL bar
-This will take you to the extensions screen. 
-Toggle the "Developer Mode" button on the top right of your screen
+Open you chromium browser and type ```chrome://extensions```in your URL bar <br>
+This will take you to the extensions screen. <br>
+Toggle the ```Developer Mode``` button on the top right of your screen
+
+- **Load the extension** <br>
+On the extension screen, click the ```Load Unpacked``` button and load the ```Chrome Extension``` folder<br>
+Make sure your extension is enabled
+
+- **Make sure it works** <br>
+Visit [Radiooooo.com](https://radiooooo.com/)<br>
+Press the '0' key<br>
+This should click the '1900' button<br>
+Now you know the extension works!
 
 
 ### 🤖 Arduino code
