@@ -15,6 +15,7 @@ from pynput.keyboard import Key, Controller
 # Also uptade '/dev/ttyACM0' (the port to which your arduino is connected to the Raspberry Pi) to match your own
 # To find your own port, type ' ls /dev/tty* ' in the raspberry Pi's terminal and you will find all your available ports.
 # Your arduino will be listed there.
+# Comment this line if you don't have an arduino connected to the raspberry pi, otherwise the script will not work.
 ser = serial.Serial('/dev/ttyACM0', 9600)
 
 GPIO.setwarnings(False)  # Ignore warning for now
@@ -226,6 +227,7 @@ while True:  # Run forever
     # serial stuff
     # here we check for the arduino's signal
     # and we press the corresponding keys if needed
+    # Comment this section if you don't have an arduino connected to the raspberry pi, otherwise the script will not work.
     if(ser.in_waiting > 0):  # if we have someting
         line = ser.readline().decode('utf-8')  # we read and decode the line
         # we only get the first 2 characters of this line
