@@ -83,34 +83,35 @@ document.addEventListener("keydown", event => {
             click('.decade[data-decade="2020"]')
             break;
         case "r":
-            mouseUpDpwn('g[data-isocode="USA"] path')
+            mouseUpDpwn('g#USA polygon');
             break;
         case "t":
-            mouseUpDpwn('g[data-isocode="COL"] path')
+            mouseUpDpwn('g#COL polygon');
             break;
         case "z":
-            mouseUpDpwn('g[data-isocode="GBR"] path')
+            mouseUpDpwn('g#GBR polygon');
             break;
         case "u":
-            mouseUpDpwn('g[data-isocode="FRA"] path')
+            mouseUpDpwn('g#FRA polygon');
             break;
         case "i":
-            mouseUpDpwn('g[data-isocode="TUR"] path')
+            mouseUpDpwn('g#TUR polygon');
             break;
         case "o":
-            mouseUpDpwn('g[data-isocode="MLI"] path')
+            mouseUpDpwn('g#MLI polygon');
             break;
         case "p":
-            mouseUpDpwn('g[data-isocode="MDG"] path')
+            mouseUpDpwn('g#MDG polygon');
             break;
         case "a":
-            mouseUpDpwn('g[data-isocode="RUS"] path')
+            mouseUpDpwn('g#RUS polygon');
             break;
         case "s":
-            mouseUpDpwn('g[data-isocode="JPN"] path')
+            mouseUpDpwn('g#JPN polygon');
             break;
         case "d":
-            mouseUpDpwn('g[data-isocode="NZL"] path')
+            //mouseUpDpwn('g[data-isocode="NZL"] path')
+            mouseUpDpwn('g#NZL polygon');
             break;
         default:
     }
